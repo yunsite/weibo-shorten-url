@@ -1,0 +1,15 @@
+{
+"name": "新浪短网址",
+"version": "0.4",
+"manifest_version": 2,
+"description": "将长网址转换为t.cn短网址",
+"icons": { "128": "icon_128.png" },
+"browser_action": {
+		"default_title": "新浪短网址",
+		"default_icon": "icon3_48.png",
+		"default_popup": "popup.html"
+	},
+"permissions": [
+    "https://api.weibo.com/*"
+  ]
+}
